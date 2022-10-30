@@ -1,0 +1,15 @@
+:root {
+  --font-ral: 'Raleway', sans-serif;
+  --color-gray: #303030;
+  --first-title-color: #ffffff;
+  --second-title-color: #303030;
+  --first-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --base-lg: 1.36;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+;
+}
