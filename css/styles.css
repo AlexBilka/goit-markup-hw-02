@@ -4,12 +4,9 @@
   --title-color: #212121;
   --p-color: #757575;
   --gray: #2f303a;
-  --white: #ffffff;
-  --first-btn-color: #2196f3;
+  --white: #ffffff;  
   --second-btn-color: #188ce8;
   --portfolio-secondary-btn-color: #f5f4fa;  
-  --portfolio-first-btn-text-color: #212121;
-  --portfolio-secondary-btn-text-color: #ffffff;
 }
 
 /* ------p font------ */
@@ -105,7 +102,7 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  background-color: var(--first-btn-color);
+  background-color: var(--accent);
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -201,14 +198,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  color: var(--portfolio-first-btn-text-color);
+  color: var(--title-color);
   background-color: var(--portfolio-secondary-btn-color);
   cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--portfolio-secondary-btn-text-color);
-  background-color: var(--first-btn-color);
+  color: var(--white);
+  background-color: var(--accent);
 }
 .project-list {
 }
