@@ -39,9 +39,10 @@ body {
 .address {
   font-style: inherit;
 }
-.btn {
-  font-family: inherit;
+.btn {  
   border-style: none;
+  text-decoration: none;
+  font-family: inherit;
 }
 
 /* -----header----- */
