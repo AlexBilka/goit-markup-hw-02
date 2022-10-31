@@ -1,6 +1,10 @@
 :root {
-  --font-ral: 'Raleway', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --logo-color-header: #000000;
+  --logo-color-footer: #ffffff;
+  --accent-logo-color: #2196F3;
   --color-gray: #303030;
+  --color-white: #ffffff;
   --first-title-color: #ffffff;
   --second-title-color: #303030;
   --first-btn-color: #ffffff;
@@ -8,8 +12,113 @@
   --base-lg: 1.36;
 }
 
+/* ------paragraf font------ */
+
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7142;
     color: #757575;
-;
+}
+
+/* -----reset----- */
+
+.list {
+    list-style: none
+}
+.link {
+    text-decoration: none;
+    color: #757575;
+}
+.address {
+    font-style: inherit;
+}
+
+
+/* -----header----- */
+
+.header {       
+}
+.header .logo {
+    color: var(--logo-color-header);
+}
+.logo-accent {
+    color: var(--accent-logo-color);
+}
+.nav-list {
+}
+.nav-link {
+}
+.contact-list {
+
+}
+.current {
+}
+.header-contact {
+}
+
+/* -----main----- */
+
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+.btn {
+}
+
+/* -----features----- */
+
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-item-text {
+}
+
+/* -----busines----- */
+
+.business {
+}
+.business-title {
+}
+.business-list {
+}
+.business-item {
+}
+
+/* -----team----- */
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-name {
+}
+.team-profession {
+
+}
+
+/* -----footer----- */
+
+.footer {
+    
+}
+.footer .logo {
+    color: var(--logo-color-footer);
+}
+.address-list {
+}
+.address-item {
 }
