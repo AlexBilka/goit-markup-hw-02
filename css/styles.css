@@ -190,6 +190,10 @@ body {
 .address-item {
   color: var(--address-text-color);
 }
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent);
+}
 .opacity {
   opacity: 60%;
 }
