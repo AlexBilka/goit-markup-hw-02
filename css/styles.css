@@ -40,8 +40,7 @@ body {
   font-style: inherit;
 }
 .btn {  
-  border-style: none;
-  text-decoration: none;
+  border-style: none;  
   font-family: inherit;
 }
 
@@ -103,6 +102,7 @@ body {
   line-height: 1.3636;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 .hero-btn {
   color: var(--white);
